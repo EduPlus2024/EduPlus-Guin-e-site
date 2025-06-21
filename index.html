@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EduPlus Guinée</title>
+
+  <!-- Icônes Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
   <style>
     body {
       margin: 0;
@@ -11,34 +15,48 @@
       background-color: #ffffff;
       color: #333;
     }
+
     header {
       background-color: #007bff;
       color: white;
       padding: 2rem 1rem;
       text-align: center;
     }
+
     header img {
       max-height: 100px;
+      max-width: 100%;
+      height: auto;
     }
+
     section {
       padding: 2rem 1rem;
       max-width: 800px;
       margin: auto;
     }
+
     .social-links a {
-      margin-right: 10px;
+      margin-right: 15px;
       color: #007bff;
       text-decoration: none;
+      font-size: 1.1rem;
     }
+
+    .social-links a i {
+      margin-right: 5px;
+    }
+
     .social-links a:hover {
       text-decoration: underline;
     }
+
     footer {
       background-color: #f0f0f0;
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
     }
+
     .contact-button, .form-button {
       background-color: #007bff;
       color: white;
@@ -47,6 +65,16 @@
       border-radius: 5px;
       display: inline-block;
       margin: 10px 5px;
+      transition: background-color 0.3s;
+    }
+
+    .contact-button:hover, .form-button:hover {
+      background-color: #0056b3;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
     }
   </style>
 </head>
@@ -75,8 +103,8 @@
   <section>
     <h2>Liens utiles</h2>
     <div class="social-links">
-      <a href="https://www.facebook.com/share/16p85MyAmg/" target="_blank">Facebook</a>
-      <a href="https://www.youtube.com/@EduPlusGuin%C3%A9eCentrepro" target="_blank">YouTube</a>
+      <a href="https://www.facebook.com/share/16p85MyAmg/" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+      <a href="https://www.youtube.com/@EduPlusGuin%C3%A9eCentrepro" target="_blank"><i class="fab fa-youtube"></i>YouTube</a>
     </div>
   </section>
 
